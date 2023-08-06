@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kaan Otomotiv</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3498db; /* Mavi arka plan rengi */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .car {
+            display: flex;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .car-image {
+            flex: 1;
+        }
+
+        .car-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .car-details {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+        .car-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 10px;
+        }
+
+        .car-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .car-description {
+            margin-bottom: 10px;
+        }
+
+        .car-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        .car-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kaan Otomotiv</h1>
+    </header>
+
+    <div class="container">
+        <div class="car">
+            <div class="car-image">
+                <img src="car1.jpg" alt="Car 1">
+            </div>
+            <div class="car-details">
+                <h2 class="car-title">Audi A4</h2>
+                <p class="car-price">Fiyat: 300.000 TL</p>
+                <p class="car-description">Bu Audi A4 modeli, güçlü performansı ve lüks iç mekanıyla sürüş deneyiminizi mükemmelleştirecek.</p>
+                <a href="#" class="car-button">Detaylar</a>
+            </div>
+        </div>
+
+        <div class="car">
+            <div class="car-image">
+                <img src="car2.jpg" alt="Car 2">
+            </div>
+            <div class="car-details">
+                <h2 class="car-title">BMW 3 Serisi</h2>
+                <p class="car-price">Fiyat: 350.000 TL</p>
+                <p class="car-description">Yeni BMW 3 Serisi, dinamik tasarımı ve üstün performansıyla sürüş keyfinizi en üst seviyeye çıkaracak.</p>
+                <a href="#" class="car-button">Detaylar</a>
+            </div>
+        </div>
+
+        <div class="car">
+            <div class="car-image">
+                <img src="car3.jpg" alt="Car 3">
+            </div>
+            <div class="car-details">
+                <h2 class="car-title">Toyota Corolla</h2>
+                <p class="car-price">Fiyat: 250.000 TL</p>
+                <p class="car-description">Yeni Toyota Corolla, modern tasarımı ve gelişmiş teknolojik özellikleriyle sınıfının lideri konumunda.</p>
+                <a href="#" class="car-button">Detaylar</a>
+            </div>
+        </div>
+
+        <div class="car">
+            <div class="car-image">
+                <img src="car4.jpg" alt="Car 4">
+            </div>
+            <div class="car-details">
+                <h2 class="car-title">Fiat Egea</h2>
+                <p class="car-price">Fiyat: 200.000 TL</p>
+                <p class="car-description">Fiat Egea, şık ve pratik tasarımıyla günlük kullanıma uygun bir otomobil seçeneği sunuyor.</p>
+                <a href="#" class="car-button">Detaylar</a>
+            </div>
+        </div>
+
+        <div class="car">
+            <div class="car-image">
+                <img src="car5.jpg" alt="Car 5">
+            </div>
+            <div class="car-details">
+                <h2 class="car-title">Peugeot 3008</h2>
+                <p class="car-price">Fiyat: 280.000 TL</p>
+                <p class="car-description">Yeni Peugeot 3008, şık tasarımı, konforlu iç mekanı ve yüksek performansıyla göz kamaştırıyor.</p>
+                <a href="#" class="car-button">Detaylar</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <h3>İLETİŞİM</h3>
+            <p>İsim: Kaan Boran</p>
+            <p>Telefon: 0552 444 94 12</p>
+            <p>Adres: Ümraniye Çakmak Fevzipaşa Mahallesi Seyran Sokak No:14</p>
+        </div>
+    </footer>
+
+</body>
+</html>
